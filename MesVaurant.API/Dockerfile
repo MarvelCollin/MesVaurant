@@ -4,9 +4,13 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["MesVaurant.API.csproj", "./"]
-RUN dotnet restore "MesVaurant.API.csproj"
+COPY ["MesVaurant.API/MesVaurant.API.csproj", "MesVaurant.API/"]
+COPY ["MesVaurant.Application/MesVaurant.Application.csproj", "MesVaurant.Application/"]
+COPY ["MesVaurant.Domain/MesVaurant.Domain.csproj", "MesVaurant.Domain/"]
+COPY ["MesVaurant.Infrastructure/MesVaurant.Infrastructure.csproj", "MesVaurant.Infrastructure/"]
+RUN dotnet restore "MesVaurant.API/MesVaurant.API.csproj"
 COPY . .
+WORKDIR "/src/MesVaurant.API"
 RUN dotnet build "MesVaurant.API.csproj" -c Release -o /app/build
 
 FROM build AS publish

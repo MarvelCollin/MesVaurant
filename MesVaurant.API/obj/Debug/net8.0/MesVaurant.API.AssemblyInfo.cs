@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MesVaurant.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd327188f359ec6c4791c5c3a9417c0533dc64a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f18935b175c5181b77a8fe3af298a1f6fb5de98")]
 [assembly: System.Reflection.AssemblyProductAttribute("MesVaurant.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MesVaurant.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
