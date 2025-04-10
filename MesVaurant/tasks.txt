@@ -1,0 +1,27 @@
+FNB
+- CRUD Restaurant
+- Assign and Deassign Staff to Restaurant
+- CRUD Staff (chef and waiter)
+- CRUD Menu 
+
+Order -> Taken -> Cooking -> Ready To Serve -> Complete
+
+Chef 
+- Update Status
+- View Assigned Restaurant
+- Order -> Taken, Ready To Serve -> Complete
+
+Waiter
+- Update Status
+- View Assigned Restaurant
+- Taken -> Cooking
+
+Customer 
+- View All Restaurant & Details
+- Order
+- Register & Login
+
+
+================================================
+FLOW 
+

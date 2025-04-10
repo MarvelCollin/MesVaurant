@@ -1,0 +1,55 @@
+- Soft Deletes
+    ada isDeleted didalam kolumn setiap table, jadi nanti bakalan pake where isDeleted juga, jadinya disetiap querynya harus ada where isDeleted
+    jadi keanya butuh buat system query sendiri
+- Security
+    Encryption pake AES untuk bagian data sensitif kea informasi pribadi dll
+- Authentication pake OAuth ama JWT 
+- Protection dari SQL Injection (XSS, CSRF)
+- Chaching 
+    untuk mengurangi db ama mempercepat waktu respon bisa pake Redis atau Memcached
+- Database Sharding
+    untuk database dengan volume data yang besar, jadinya bagi ke beberapa database
+- Error Handling dan Logging
+    Supaya bisa mencatat error dan aktivitas aplikasi bisa Serilog atau NLog
+- Backup and Recovery 
+    Backup otomatis untuk databasenya, Disaster Recovery untuk rencana pemulihan
+- CI/CD (Continious Integration / Continous Deployment)
+    supaya tetap menjaga kualitas code dan mengurangi kesalahan manual saat deployment ini bisa pake Github Actions, Azure Devops dan Jekins
+- Cookie Consent 
+    Izin untuk mendapatkan cookie kepada user (yang biasanya popup pada saat pertama kali access web)
+    
+=============================================================
+
+User
+- ID
+- Username
+- Password
+- Role
+
+Restaurant 
+- ID
+- Name
+- Description
+- Opening Hours
+
+Menu
+- ID
+- RestaurantID
+- Name
+- Description
+- Price
+- Stock
+
+Order 
+- ID
+- MenuID
+- CustomerID
+- Quantity
+- Status
+
+User HasMany Order 
+Restaurant HasMany Menu
+Menu HasMany Order
+
+
+============================================================
