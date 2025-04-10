@@ -1,6 +1,0 @@
-﻿services:
-  mesvaurant:
-    image: mesvaurant
-    build:
-      context: .
-      dockerfile: MesVaurant/Dockerfile

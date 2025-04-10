@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  api:
+    build: ./MesVaurant.API
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+  ui:
+    build: ./MesVaurant.UI
+    ports:
+      - "5001:80"
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: asdasd
+      POSTGRES_DB: mesvaurantdb
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"

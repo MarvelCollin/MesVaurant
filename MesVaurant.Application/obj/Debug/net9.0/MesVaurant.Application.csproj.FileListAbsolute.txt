@@ -1,0 +1,16 @@
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\bin\Debug\net9.0\MesVaurant.Application.deps.json
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\bin\Debug\net9.0\MesVaurant.Application.dll
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\bin\Debug\net9.0\MesVaurant.Application.pdb
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\bin\Debug\net9.0\MesVaurant.Domain.dll
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\bin\Debug\net9.0\MesVaurant.Domain.pdb
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.csproj.AssemblyReference.cache
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.AssemblyInfoInputs.cache
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.AssemblyInfo.cs
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.csproj.CoreCompileInputs.cache
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.sourcelink.json
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaura.E73C3891.Up2Date
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.dll
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\refint\MesVaurant.Application.dll
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\MesVaurant.Application.pdb
+C:\Users\kowlin\RiderProjects\MesVaurant\MesVaurant.Application\obj\Debug\net9.0\ref\MesVaurant.Application.dll
