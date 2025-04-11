@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MesVaurant.Client.props" />
+</Project>
